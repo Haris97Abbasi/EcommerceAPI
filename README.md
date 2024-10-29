@@ -105,12 +105,13 @@ curl -X POST "https://localhost:5001/api/Ecommerce/Product" \
       "categoryId": 1,
       "isAvailable": true
     }'
+```
 
-
-### Add a Product
+## Filter Products by Price Range
 
 ```bash
 curl -X GET "https://localhost:5001/api/Ecommerce/FilterByPriceRange?minPrice=100&maxPrice=500"
+```
 
 
 ## Future Enhancements
